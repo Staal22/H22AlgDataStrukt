@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>E:\Semester work\AlgDataStrukt\HashTable_withLinkedList-master\x64\Debug\HashTable_Session.exe</FullPath>
+      <FullPath>E:\Semester work\AlgDataStrukt\HashTableSeparateChaining\x64\Debug\HashTable_Session.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
