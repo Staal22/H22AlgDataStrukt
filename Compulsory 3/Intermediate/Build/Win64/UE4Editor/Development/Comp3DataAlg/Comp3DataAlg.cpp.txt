@@ -1,0 +1,2 @@
+E:\Semester work\AlgDataStrukt\Compulsory 3\Intermediate\Build\Win64\UE4Editor\Development\Comp3DataAlg\Definitions.Comp3DataAlg.h
+E:\Semester work\AlgDataStrukt\Compulsory 3\Source\Comp3DataAlg\Comp3DataAlg.h

@@ -1,0 +1,14 @@
+{
+	"SourceFiles": [
+		"E:\\Semester work\\AlgDataStrukt\\Compulsory 3\\Source\\Comp3DataAlg\\Comp3DataAlg.Build.cs",
+		"E:\\Semester work\\AlgDataStrukt\\Compulsory 3\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControl\\RiderGameControl.Build.cs",
+		"E:\\Semester work\\AlgDataStrukt\\Compulsory 3\\Plugins\\Developer\\RiderLink\\Source\\RD\\RD.Build.cs",
+		"E:\\Semester work\\AlgDataStrukt\\Compulsory 3\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\RiderLink.Build.cs",
+		"E:\\Semester work\\AlgDataStrukt\\Compulsory 3\\Plugins\\Developer\\RiderLink\\Source\\RiderShaderInfo\\RiderShaderInfo.Build.cs",
+		"E:\\Semester work\\AlgDataStrukt\\Compulsory 3\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprint\\RiderBlueprint.Build.cs",
+		"E:\\Semester work\\AlgDataStrukt\\Compulsory 3\\Plugins\\Developer\\RiderLink\\Source\\RiderLogging\\RiderLogging.Build.cs",
+		"E:\\Semester work\\AlgDataStrukt\\Compulsory 3\\Source\\Comp3DataAlg.Target.cs",
+		"E:\\Semester work\\AlgDataStrukt\\Compulsory 3\\Source\\Comp3DataAlgEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

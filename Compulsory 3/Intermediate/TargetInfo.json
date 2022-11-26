@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Comp3DataAlg",
+			"Path": "E:\\Semester work\\AlgDataStrukt\\Compulsory 3\\Source\\Comp3DataAlg.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Comp3DataAlgEditor",
+			"Path": "E:\\Semester work\\AlgDataStrukt\\Compulsory 3\\Source\\Comp3DataAlgEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

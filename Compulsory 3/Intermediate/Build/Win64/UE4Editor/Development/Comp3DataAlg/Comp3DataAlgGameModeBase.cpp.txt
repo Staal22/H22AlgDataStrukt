@@ -1,0 +1,7 @@
+E:\Semester work\AlgDataStrukt\Compulsory 3\Intermediate\Build\Win64\UE4Editor\Development\Comp3DataAlg\Definitions.Comp3DataAlg.h
+E:\Semester work\AlgDataStrukt\Compulsory 3\Source\Comp3DataAlg\Comp3DataAlgGameModeBase.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+E:\Semester work\AlgDataStrukt\Compulsory 3\Intermediate\Build\Win64\UE4Editor\Inc\Comp3DataAlg\Comp3DataAlgGameModeBase.generated.h

@@ -1,0 +1,15 @@
+﻿E:\Programming\Visual Studio\2022\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Compolsory_1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Compulsory_1.cpp
+C:\Users\sb\Desktop\Stål_Brændeland\Data-Algs-Compulsory-1\Compolsory_1\DynamicArray.cpp(73,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\sb\Desktop\Stål_Brændeland\Data-Algs-Compulsory-1\Compolsory_1\DynamicArray.cpp(73): message : while compiling class template member function 'DynamicArray<std::string>::DynamicArray(std::initializer_list<T>)'
+          with
+          [
+              T=std::string
+          ]
+C:\Users\sb\Desktop\Stål_Brændeland\Data-Algs-Compulsory-1\Compolsory_1\Compulsory_1.cpp(23): message : see reference to function template instantiation 'DynamicArray<std::string>::DynamicArray(std::initializer_list<T>)' being compiled
+          with
+          [
+              T=std::string
+          ]
+C:\Users\sb\Desktop\Stål_Brændeland\Data-Algs-Compulsory-1\Compolsory_1\Compulsory_1.cpp(7): message : see reference to class template instantiation 'DynamicArray<std::string>' being compiled
+  Compolsory_1.vcxproj -> C:\Users\sb\Desktop\Stål_Brændeland\Data-Algs-Compulsory-1\x64\Debug\Compulsory_1.exe

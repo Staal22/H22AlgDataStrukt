@@ -1,0 +1,28 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Comp3DataAlg.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Semester work\AlgDataStrukt\Compulsory 3\Intermediate\Build\Win64\Comp3DataAlgEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"E:\Semester work\AlgDataStrukt\Compulsory 3\Intermediate\Build\Win64\UE4Editor\Development\Comp3DataAlg\AStarHadler.cpp.obj"
+"E:\Semester work\AlgDataStrukt\Compulsory 3\Intermediate\Build\Win64\UE4Editor\Development\Comp3DataAlg\AStarHandler2.cpp.obj"
+"E:\Semester work\AlgDataStrukt\Compulsory 3\Intermediate\Build\Win64\UE4Editor\Development\Comp3DataAlg\Comp3DataAlg.cpp.obj"
+"E:\Semester work\AlgDataStrukt\Compulsory 3\Intermediate\Build\Win64\UE4Editor\Development\Comp3DataAlg\Comp3DataAlgGameModeBase.cpp.obj"
+"E:\Semester work\AlgDataStrukt\Compulsory 3\Intermediate\Build\Win64\UE4Editor\Development\Comp3DataAlg\DebugLog.cpp.obj"
+"E:\Semester work\AlgDataStrukt\Compulsory 3\Intermediate\Build\Win64\UE4Editor\Development\Comp3DataAlg\DjikstraHandler.cpp.obj"
+"E:\Semester work\AlgDataStrukt\Compulsory 3\Intermediate\Build\Win64\UE4Editor\Development\Comp3DataAlg\NodeActor.cpp.obj"
+"E:\Semester work\AlgDataStrukt\Compulsory 3\Intermediate\Build\Win64\UE4Editor\Development\Comp3DataAlg\NodeSpawner.cpp.obj"
+"E:\Semester work\AlgDataStrukt\Compulsory 3\Intermediate\Build\Win64\UE4Editor\Development\Comp3DataAlg\TSPHandler.cpp.obj"
+"E:\Semester work\AlgDataStrukt\Compulsory 3\Intermediate\Build\Win64\UE4Editor\Development\Comp3DataAlg\AStarHadler.gen.cpp.obj"
+"E:\Semester work\AlgDataStrukt\Compulsory 3\Intermediate\Build\Win64\UE4Editor\Development\Comp3DataAlg\AStarHandler2.gen.cpp.obj"
+"E:\Semester work\AlgDataStrukt\Compulsory 3\Intermediate\Build\Win64\UE4Editor\Development\Comp3DataAlg\Comp3DataAlg.init.gen.cpp.obj"
+"E:\Semester work\AlgDataStrukt\Compulsory 3\Intermediate\Build\Win64\UE4Editor\Development\Comp3DataAlg\Comp3DataAlgGameModeBase.gen.cpp.obj"
+"E:\Semester work\AlgDataStrukt\Compulsory 3\Intermediate\Build\Win64\UE4Editor\Development\Comp3DataAlg\DjikstraHandler.gen.cpp.obj"
+"E:\Semester work\AlgDataStrukt\Compulsory 3\Intermediate\Build\Win64\UE4Editor\Development\Comp3DataAlg\NodeActor.gen.cpp.obj"
+"E:\Semester work\AlgDataStrukt\Compulsory 3\Intermediate\Build\Win64\UE4Editor\Development\Comp3DataAlg\NodeSpawner.gen.cpp.obj"
+"E:\Semester work\AlgDataStrukt\Compulsory 3\Intermediate\Build\Win64\UE4Editor\Development\Comp3DataAlg\TSPHandler.gen.cpp.obj"
+"E:\Semester work\AlgDataStrukt\Compulsory 3\Intermediate\Build\Win64\UE4Editor\Development\Comp3DataAlg\Default.rc2.res"
+/OUT:"E:\Semester work\AlgDataStrukt\Compulsory 3\Intermediate\Build\Win64\UE4Editor\Development\Comp3DataAlg\UE4Editor-Comp3DataAlg.lib"
