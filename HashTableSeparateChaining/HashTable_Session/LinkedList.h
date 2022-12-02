@@ -45,6 +45,30 @@ public:
             tail = newNode;
         }
     }
+    int countNodes()
+    {
+        int count{};
+        Node<T>* p = head;
+        while (p != nullptr)
+        {
+            count++;
+            p = p->next;
+        }
+        return count;
+    }
+    T getAt(int index)
+    {
+        Node<T>* p = head;
+        int count{};
+        T data{};
+        while (p != nullptr && count <= index)
+        {
+            data = p->data;
+            p = p->next;
+            count++;
+        }
+        return data;
+    }
     void printData()
     {
         Node<T>* p = head;

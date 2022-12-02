@@ -11,12 +11,18 @@ public:
     std::vector<int> table;
     HashTableSeparateChain();
     HashTableSeparateChain(int value);
+    
     void insertItem(int key);
     void deleteItem(int key);
-    int hashFunction(int x) const;
     void displayHash();
-    void reHash();
+    void reHash(HashTableSeparateChain& old_table);
+
+    int hashFunction(int x) const;
+    float loadFactor();
+
     std::vector<SingleLinkedList<int>> bucket_list;
+    
+    float loadLimit = 0.6f;
 };
 
 HashTableSeparateChain::HashTableSeparateChain() : buckets(0)
@@ -50,6 +56,17 @@ int HashTableSeparateChain::hashFunction(int x) const
     return ret;
 }
 
+float HashTableSeparateChain::loadFactor()
+{
+    float count{};
+    for (int i = 0; i < buckets; ++i)
+    {
+        if (bucket_list[i].countNodes() > 0 && bucket_list[i].getAt(0) != 0)
+            count++;
+    }
+    return count/buckets;
+}
+
 // display the Hash table
 void HashTableSeparateChain::displayHash()
 {
@@ -63,9 +80,20 @@ void HashTableSeparateChain::displayHash()
 
 // increase the size of the hash table when load factor becomes too high,
 // and rehash all keys, as the module operation will now give different results
-void HashTableSeparateChain::reHash()
+void HashTableSeparateChain::reHash(HashTableSeparateChain& old_table)
 {
-    
+    std::cout << "--------- Rehashing table ---------" << std::endl;
+    HashTableSeparateChain temp_table(old_table.buckets * 2);
+    for (int i = 0; i < old_table.buckets; ++i)
+    {
+        for (int j = 0; j < old_table.bucket_list[i].countNodes(); ++j)
+        {
+            if (old_table.bucket_list[i].getAt(j) != 0)
+                temp_table.insertItem(old_table.bucket_list[i].getAt(j));
+        }
+    }
+    old_table = temp_table;
+    std::cout << "--------- Table rehashed ---------" << std::endl;
 }
 
 int main()
@@ -79,6 +107,8 @@ int main()
 
     for (const auto key : keys)
     {
+        if (hash_table.loadFactor() > hash_table.loadLimit)
+            hash_table.reHash(hash_table);
         hash_table.insertItem(key);
     }
     // for (int i = 0; i < size; ++i)
