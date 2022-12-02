@@ -15,6 +15,7 @@ public:
     void deleteItem(int key);
     int hashFunction(int x) const;
     void displayHash();
+    void reHash();
     std::vector<SingleLinkedList<int>> bucket_list;
 };
 
@@ -60,6 +61,12 @@ void HashTableSeparateChain::displayHash()
     }
 }
 
+// increase the size of the hash table when load factor becomes too high,
+// and rehash all keys, as the module operation will now give different results
+void HashTableSeparateChain::reHash()
+{
+    
+}
 
 int main()
 {
