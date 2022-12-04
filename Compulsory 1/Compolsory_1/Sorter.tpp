@@ -1,32 +1,4 @@
-﻿#include "DynamicArray.cpp"
-#include "Sorter.h"
-#include "Random.h"
-#include <algorithm>
-
-template <class T>
-class Sorter {
-public:
-    void BinarySearch(T toFind, T arr[], int size);
-    void LinearSearch(T toFind, T arr[], int size);
-
-    void RandomizeArray(T arr[], int size);
-
-    void SelectionSort(T arr[], int size);
-    void BubbleSort(T arr[], int size);
-    void QuickSort(int low, int high, T arr[]);
-    // void CountingSort(T arr[], int size);
-    void ChadRadixSort(T arr[]);
-    void VirginBogoSort(T arr[], int size);
-
-    void CountingSort(int arr[], int size);
-
-private:
-    int binarySearchFunction(T toFind, T arr[], int size);
-    int linearSearchFunction(T toFind, T arr[], int size);
-
-    int QuickSortPartition(int low, int high, T arr[]);
-    bool isSorted(T arr[], int size);
-};
+﻿#pragma once
 
 //Time complexity O(log n)
 //where n = array length
@@ -118,38 +90,6 @@ int Sorter<T>::QuickSortPartition(int low, int high, T arr[]) {
     return firstFromRight;
 }
 
-// lol only for ints, implement later probably
-// template <class T>
-// void Sorter<T>::CountingSort(T arr[], int size)
-// {
-//     int min = *std::min_element(arr, arr + size); // why not - 1
-//     int max = *std::max_element(arr, arr + size); // why not - 1
-//     int range = max - min + 1;
-//     Copium count(range, 0);
-//     Copium output(size, 0);
-//
-//     // counting
-//     for (int i = 0; i < size; ++i) {
-//         count[arr[i] - min]++;
-//     }
-//
-//     // adding
-//     for (int i = 1; i < count.Size(); ++i) {
-//         count[i] = count[i] + count[i - 1];
-//     }
-//
-//     // inserting to output
-//     for (int i = 0; i < size; ++i) {
-//         output[count[arr[i] - min] - 1] = arr[i];
-//         count[arr[i] - min]--;
-//     }
-//
-//     memcpy(arr, output.arr, sizeof(int) * size);
-//     // for (int i = 0; i < size; ++i) {
-//     // arr[i] = output[i];
-//     // } 
-// }
-
 // int only
 template <class T>
 void Sorter<T>::ChadRadixSort(T arr[]) {
@@ -184,6 +124,7 @@ void Sorter<T>::VirginBogoSort(T arr[], int size) {
     }
 }
 
+// only for ints for now, Template implementation WIP
 template <class T>
 void Sorter<T>::CountingSort(int arr[], int size) {
     int min = *std::min_element(arr, arr + size);
@@ -210,6 +151,37 @@ void Sorter<T>::CountingSort(int arr[], int size) {
 
     memcpy(arr, output.GetArray(), sizeof(int) * size);
 }
+
+// template <class T>
+// void Sorter<T>::CountingSort(T arr[], int size)
+// {
+//     int min = *std::min_element(arr, arr + size); // why not - 1
+//     int max = *std::max_element(arr, arr + size); // why not - 1
+//     int range = max - min + 1;
+//     Copium count(range, 0);
+//     Copium output(size, 0);
+//
+//     // counting
+//     for (int i = 0; i < size; ++i) {
+//         count[arr[i] - min]++;
+//     }
+//
+//     // adding
+//     for (int i = 1; i < count.Size(); ++i) {
+//         count[i] = count[i] + count[i - 1];
+//     }
+//
+//     // inserting to output
+//     for (int i = 0; i < size; ++i) {
+//         output[count[arr[i] - min] - 1] = arr[i];
+//         count[arr[i] - min]--;
+//     }
+//
+//     memcpy(arr, output.arr, sizeof(int) * size);
+//     // for (int i = 0; i < size; ++i) {
+//     // arr[i] = output[i];
+//     // } 
+// }
 
 template <class T>
 int Sorter<T>::binarySearchFunction(T toFind, T arr[], int size) {
@@ -260,3 +232,5 @@ bool Sorter<T>::isSorted(T arr[], int size) {
     }
     return true;
 };
+
+

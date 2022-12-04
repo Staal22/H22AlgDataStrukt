@@ -1,5 +1,5 @@
-#include "DynamicArray.cpp"
-#include "Sorter.cpp"
+#include "DynamicArray.h"
+#include "Sorter.h"
 #include "Timer.h"
 
 

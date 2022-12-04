@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8b656f0-17d5-426e-9342-103425888d8b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Compolsory_1/Compolsory_1.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Compolsory_1/Compolsory_1.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compolsory_1/Compolsory_1.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/Compolsory_1/Compolsory_1.vcxproj.filters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compolsory_1/Compulsory_1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compolsory_1/Compulsory_1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compolsory_1/DynamicArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compolsory_1/DynamicArray.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/Main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/BinarySearchTree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/BinarySearchTree.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/BinarySearchTree.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/x64/Debug/BinarySearchTree.exe.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/x64/Debug/BinarySearchTree.exe.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/x64/Debug/BinarySearchTree.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/x64/Debug/BinarySearchTree.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/x64/Debug/BinarySearchTree.tlog/BinarySearchTree.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/x64/Debug/BinarySearchTree.tlog/BinarySearchTree.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/x64/Debug/BinarySearchTree.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/x64/Debug/BinarySearchTree.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/x64/Debug/BinarySearchTree.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/x64/Debug/BinarySearchTree.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/x64/Debug/BinarySearchTree.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/x64/Debug/BinarySearchTree.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/x64/Debug/BinarySearchTree.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/x64/Debug/BinarySearchTree.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/x64/Debug/BinarySearchTree.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/x64/Debug/BinarySearchTree.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/x64/Debug/BinarySearchTree.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/x64/Debug/BinarySearchTree.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/x64/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/x64/Debug/vc142.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/x64/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BinarySearchTree/BinarySearchTree/x64/Debug/vc142.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearchTree/x64/Debug/BinarySearchTree.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BinarySearchTree/x64/Debug/BinarySearchTree.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +30,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Di2QpGFPXImzNElRUU6hZlHoYn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,6 +41,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -95,6 +108,8 @@
       <workItem from="1661854122862" duration="1668000" />
       <workItem from="1662033839162" duration="844000" />
       <workItem from="1669384225929" duration="400000" />
+      <workItem from="1670178513093" duration="754000" />
+      <workItem from="1670180094798" duration="46000" />
     </task>
     <servers />
   </component>

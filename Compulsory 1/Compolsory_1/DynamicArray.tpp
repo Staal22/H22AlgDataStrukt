@@ -1,50 +1,4 @@
-﻿#pragma once
-#include <cstdlib>
-#include <cstring>
-#include <future>
-#include <iostream>
-#include <string>
-#include <random>
-
-
-template <class T>
-class DynamicArray {
-public:
-    DynamicArray();
-    DynamicArray(int size, T value);
-    DynamicArray(std::initializer_list<T> initList);
-    DynamicArray(const DynamicArray& original); // copy constructor
-    ~DynamicArray();
-    void PopBack();
-    void PushBack(const T addition);
-    void Expand();
-    void TryShrink();
-    T& At(const int& index);
-    void RemoveAt(const int& index);
-    void InsertAt(const int& index, const T& value);
-
-    void PopulateArrayRandom(int minInclusive, int maxInclusive);
-    void InitArray(int size);
-    void PrintArray(bool newLine = true);
-
-    T& operator[](const int& input);
-    //getters and setters
-    //-----------------------
-    T* GetArray() const;
-    int Size() const;
-    int Capacity() const;
-
-    // misc
-    void swap(T* a, T* b);
-
-private:
-    T* internal_array_ = nullptr;
-    int array_size_ = 0;
-    int array_capacity = 1;
-    int count_items = 0;
-
-};
-
+#pragma once
 
 template <class T>
 DynamicArray<T>::DynamicArray() : DynamicArray(1, T()) {
@@ -67,7 +21,7 @@ DynamicArray<T>::DynamicArray(int size, T value) {
 
 /**
  * \brief example DynamicArray<int> arr = {1,2,3,4,5,6,8,1};
- * \param initList list, the list to intilize as values of DynamicArray
+ * \param initList list, the list to initialize as values of DynamicArray
  */
 template <class T>
 DynamicArray<T>::DynamicArray(std::initializer_list<T> initList) : DynamicArray(initList.size(), T()) {
@@ -91,7 +45,7 @@ DynamicArray<T>::DynamicArray(const DynamicArray& original) {
         internal_array_[i] = original.GetArray()[i];
     }
 
-    // cant use memcpy becouse it does not work with complex types like strings
+    // cant use memcpy because it does not work with complex types like strings
     // memcpy(internal_array_, original.internal_array_, sizeof(T) * array_size_);
 }
 

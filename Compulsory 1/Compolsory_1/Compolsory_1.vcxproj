@@ -156,12 +156,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Compulsory_1.cpp" />
-    <ClCompile Include="DynamicArray.cpp" />
-    <ClCompile Include="Sorter.cpp" />
+    <ClInclude Include="DynamicArray.h" />
+    <ClInclude Include="Sorter.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DynamicArray.tpp" />
     <ClInclude Include="Random.h" />
-    <ClInclude Include="Sorter.h" />
+    <ClInclude Include="Sorter.tpp" />
     <ClInclude Include="Timer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
